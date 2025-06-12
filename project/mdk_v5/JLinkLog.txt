@@ -1,0 +1,70 @@
+T11744 002:443.301   SEGGER J-Link V8.40 Log File
+T11744 002:443.438   DLL Compiled: Jun  4 2025 12:06:45
+T11744 002:443.442   Logging started @ 2025-06-09 07:42
+T11744 002:443.447   Process: D:\Keil_v5\UV4\UV4.exe
+T11744 002:443.464 - 2443.451ms 
+T11744 002:443.475 JLINK_SetWarnOutHandler(...)
+T11744 002:443.480 - 0.007ms 
+T11744 002:443.510 JLINK_OpenEx(...)
+T11744 002:445.152   
+  ***** Error: 
+T11744 002:445.163   Cannot connect to J-Link.
+T11744 002:445.246 - 1.735ms returns "Cannot connect to J-Link."
+T11744 002:445.412 
+  ***** Warning: 
+T11744 002:445.418 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T11744 002:445.424 JLINK_GetHardwareVersion()
+T11744 002:446.858   
+  ***** Error: 
+T11744 002:446.867   Cannot connect to J-Link.
+T11744 002:446.921 - 1.496ms 
+T11744 004:138.745 JLINK_IsOpen()
+T11744 004:138.770 - 0.013ms returns 0x00
+T11744 004:138.775 JLINK_EMU_SelectByUSBSN(SerialNo = 0)
+T11744 004:139.387 - 0.611ms returns 0xFFFFFFFF
+T11744 004:139.395 JLINK_EnableLog(...)
+T11744 004:139.398 - 0.003ms 
+T11744 004:139.402 JLINK_SetLogFile(...)
+T11744 004:139.405 - 0.003ms 
+T11744 004:139.409 JLINK_SetWarnOutHandler(...)
+T11744 004:139.412 - 0.003ms 
+T11744 004:139.416 JLINK_OpenEx(...)
+T11744 004:141.100   
+  ***** Error: 
+T11744 004:141.108   Cannot connect to J-Link.
+T11744 004:141.169 - 1.752ms returns "Cannot connect to J-Link."
+T11744 004:141.303 
+  ***** Warning: 
+T11744 004:141.308 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T11744 004:141.314 JLINK_GetHardwareVersion()
+T11744 004:142.670   
+  ***** Error: 
+T11744 004:142.678   Cannot connect to J-Link.
+T11744 004:142.727 - 1.412ms 
+T11744 005:388.151 JLINK_IsOpen()
+T11744 005:388.168 - 0.016ms returns 0x00
+T11744 005:388.173 JLINK_EMU_SelectByUSBSN(SerialNo = 0)
+T11744 005:388.782 - 0.608ms returns 0xFFFFFFFF
+T11744 005:388.791 JLINK_EnableLog(...)
+T11744 005:388.795 - 0.003ms 
+T11744 005:388.799 JLINK_SetLogFile(...)
+T11744 005:388.802 - 0.003ms 
+T11744 005:388.806 JLINK_SetWarnOutHandler(...)
+T11744 005:388.809 - 0.003ms 
+T11744 005:388.813 JLINK_OpenEx(...)
+T11744 005:390.447   
+  ***** Error: 
+T11744 005:390.455   Cannot connect to J-Link.
+T11744 005:390.525 - 1.711ms returns "Cannot connect to J-Link."
+T11744 005:390.668 
+  ***** Warning: 
+T11744 005:390.674 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T11744 005:390.680 JLINK_GetHardwareVersion()
+T11744 005:392.028   
+  ***** Error: 
+T11744 005:392.035   Cannot connect to J-Link.
+T11744 005:392.085 - 1.404ms 
+T11744 012:975.142 JLINK_Close()
+T11744 012:975.466 - 0.324ms
+T11744 012:975.484   
+T11744 012:975.488   Closed

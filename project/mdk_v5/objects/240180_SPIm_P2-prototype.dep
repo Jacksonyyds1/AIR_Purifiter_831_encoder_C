@@ -1,0 +1,1580 @@
+Dependencies for Project '240180_SPIm', Target 'P2-prototype': (DO NOT MODIFY !)
+CompilerVersion: 6210000::V6.21::ARMCLANG
+F (..\user\display.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/display.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (..\at32f403a_407_board\at32f403a_407_clock.ha.\bsp\spiLCD_flash.h)(0x00000000)
+I (..\bsp\lcd.h_.\user\define.h4.\iHastek\inc\ihastek.h)(0x00000000)
+I (..\iHastek\inc\user_config.h4.\iHastek\inc\types.h)(0x00000000)
+I (..\iHastek\inc\type.ho:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x00000000)
+I (..\user\display.hp.\..\libraries\timer_event\TimeEvent.h)(0x00000000)
+F (..\user\driver.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/driver.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h_\iHastek\inc\ihastek.h)(0x00000000)
+I (..\iHastek\inc\user_config.hu.\iHastek\inc\types.h)(0x00000000)
+I (..\iHastek\inc\type.ho:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x00000000)
+I (..\user\define.hy.\bsp\flash.h5.\bsp\lcd.hN.\user\display.h)(0x00000000)
+I (..\bsp\i2c.hn.\bsp\sen68.hs.\bsp\opt3004.h)(0x00000000)
+F (..\user\main.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/main.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_int.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (..\at32f403a_407_board\at32f403a_407_clock.h)(0x6847DC2B)
+I (..\iHastek\inc\user_config.h4.\iHastek\inc\types.h)(0x00000000)
+I (..\iHastek\inc\type.ho:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x00000000)
+I (..\user\define.hy.\..\libraries\timer_event\TimeEvent.h)(0x00000000)
+F (..\user\usr.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/usr.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (..\at32f403a_407_board\at32f403a_407_clock.ha.\bsp\spiLCD_flash.h)(0x00000000)
+I (..\bsp\lcd.h_.\user\define.h4.\iHastek\inc\ihastek.h)(0x00000000)
+I (..\iHastek\inc\user_config.h4.\iHastek\inc\types.h)(0x00000000)
+I (..\iHastek\inc\type.ho:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x00000000)
+I (..\user\display.hp.\..\libraries\timer_event\TimeEvent.h)(0x00000000)
+I (..\bsp\flash.h)(0x6847DC2B)
+F (..\user\logger.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/logger.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+F (..\bsp\flash.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/flash.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h_\bsp\flash.h)(0x00000000)
+F (..\user\fonts.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/fonts.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+F (..\bsp\lcd.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/lcd.o -MD)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h..\iHastek\inc\ihastek.h)(0x00000000)
+I (..\iHastek\inc\user_config.hu.\iHastek\inc\types.h)(0x00000000)
+I (..\iHastek\inc\type.ho:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x00000000)
+I (..\user\display.hp.\bsp\spiLCD_flash.h)(0x00000000)
+I (..\at32f403a_407_board\at32f403a_407_board.h\.\bsp\lcd_init.c)(0x00000000)
+F (..\bsp\spi_LCD.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/spi_lcd.o -MD)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (..\user\define.hd:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h\iHastek\inc\ihastek.h)(0x00000000)
+I (..\iHastek\inc\user_config.hu.\iHastek\inc\types.h)(0x00000000)
+I (..\iHastek\inc\type.ho:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x00000000)
+I (..\user\display.h)(0x6847DC2B)
+F (..\at32f403a_407_board\at32f403a_407_board.c)(0x684A94A7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_board.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h_\user\define.h)(0x00000000)
+I (..\iHastek\inc\ihastek.hi.\iHastek\inc\user_config.h)(0x00000000)
+I (..\iHastek\inc\types.h..\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.he\bsp\spiLCD_flash.h)(0x00000000)
+F (..\at32f403a_407_board\at32f403a_407_clock.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_clock.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_clock.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\at32f403a_407_board\at32f403a_407_int.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_int.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_int.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (..\..\libraries\timer_event\TimeEvent.h..\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h..\user\define.h)(0x00000000)
+I (..\iHastek\inc\ihastek.hi.\iHastek\inc\user_config.h)(0x00000000)
+I (..\iHastek\inc\types.h..\bsp\lcd.h\.\user\display.h)(0x00000000)
+F (..\at32f403a_407_board\st32f403a_407_interrupt.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/st32f403a_407_interrupt.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (..\at32f403a_407_board\at32f403a_407_int.h)(0x6847DC2B)
+I (..\..\libraries\timer_event\TimeEvent.ht.\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h..\bsp\stepper_motor.h)(0x00000000)
+I (..\user\define.hR.\iHastek\inc\ihastek.h..\iHastek\inc\user_config.h)(0x00000000)
+I (..\iHastek\inc\types.hs.\user\driver.h..\bsp\scd40.h)(0x00000000)
+F (..\bsp\stepper_motor.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/stepper_motor.o -MD)
+I (..\iHastek\inc\ihastek.hd.\iHastek\inc\user_config.h)(0x00000000)
+I (..\iHastek\inc\types.h.:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.hC\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+I (..\bsp\stepper_motor.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\bsp\i2c.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/i2c.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h_\iHastek\inc\ihastek.h)(0x00000000)
+I (..\iHastek\inc\user_config.hu.\iHastek\inc\types.h)(0x00000000)
+I (..\iHastek\inc\type.ho:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x00000000)
+I (..\user\define.h)(0x6847DC2B)
+F (..\bsp\sen68.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/sen68.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (..\iHastek\inc\user_config.ha.\iHastek\inc\ihastek.h)(0x00000000)
+I (..\iHastek\inc\types.hn.\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+F (..\bsp\scd40.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/scd40.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.hd\iHastek\inc\ihastek.h)(0x00000000)
+I (..\iHastek\inc\user_config.hu.\iHastek\inc\types.h)(0x00000000)
+I (..\iHastek\inc\type.ho:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hC\user\define.h)(0x00000000)
+I (..\user\driver.h)(0x6847DC2B)
+F (..\bsp\opt3004.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/opt3004.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h\user\driver.h)(0x00000000)
+I (..\iHastek\inc\user_config.hu.\iHastek\inc\ihastek.h)(0x00000000)
+I (..\iHastek\inc\types.hn.\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\bsp\encoder.c)(0x684A93FF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/encoder.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (..\..\libraries\absolute_encoder\absolute_encoder.h2.\bsp\encoder.h)(0x00000000)
+I (..\bsp\stepper_motor.ht.\user\define.hu.\iHastek\inc\ihastek.h)(0x00000000)
+I (..\iHastek\inc\user_config.hr.\iHastek\inc\types.h)(0x00000000)
+I (..\iHastek\inc\type.ho:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x00000000)
+F (..\..\libraries\drivers\src\at32f403a_407_gpio.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_gpio.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\drivers\src\at32f403a_407_misc.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_misc.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\drivers\src\at32f403a_407_crm.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_crm.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\drivers\src\at32f403a_407_wdt.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_wdt.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (..\iHastek\inc\ihastek.hi.\iHastek\inc\user_config.h)(0x00000000)
+I (..\iHastek\inc\types.h.:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x00000000)
+I (..\iHastek\inc\type.hh:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hC\user\define.h)(0x00000000)
+F (..\..\libraries\drivers\src\at32f403a_407_adc.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_adc.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\drivers\src\at32f403a_407_rtc.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_rtc.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\drivers\src\at32f403a_407_pwc.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_pwc.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_clock.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.hd\iHastek\inc\ihastek.h)(0x00000000)
+I (..\iHastek\inc\user_config.hu.\iHastek\inc\types.h)(0x00000000)
+I (..\iHastek\inc\type.ho:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x00000000)
+I (..\user\define.hy.\user\display.h)(0x00000000)
+F (..\..\libraries\drivers\src\at32f403a_407_dma.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_dma.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\drivers\src\at32f403a_407_spi.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_spi.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\drivers\src\at32f403a_407_usart.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_usart.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\drivers\src\at32f403a_407_flash.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_flash.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\drivers\src\at32f403a_407_tmr.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_tmr.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\drivers\src\at32f403a_407_bpr.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_bpr.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\drivers\src\at32f403a_407_exint.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_exint.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\drivers\src\at32f403a_407_crc.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_crc.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\drivers\src\at32f403a_407_i2c.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/at32f403a_407_i2c.o -MD)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\..\libraries\cmsis\cm4\device_support\startup\mdk\startup_at32f403a_407.s)(0x6847DC2B)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=armasm  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 539" -Wa,armasm,--pd,"AT32F403ACCT7 SETA 1"-o ./objects/startup_at32f403a_407.o)
+F (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.c)(0x684A933C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/system_at32f403a_407.o -MD)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\readme.txt)(0x6847DC2B)()
+F (..\iHastek\core\core_key.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/core_key.o -MD)
+I (..\iHastek\inc\user_config.h\.\iHastek\inc\types.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.hh\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+F (..\iHastek\core\core_tick.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/core_tick.o -MD)
+I (..\iHastek\inc\ihastek.hk.\iHastek\inc\user_config.h)(0x00000000)
+I (..\iHastek\inc\types.h.:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.hC\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+F (..\iHastek\core\platform.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/platform.o -MD)
+I (..\iHastek\inc\user_config.h\.\iHastek\inc\types.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.hh\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+I (..\iHastek\inc\platform.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (..\user\display.hr.\bsp\scd40.h2.\bsp\sen68.hc.\bsp\opt3004.h)(0x00000000)
+I (..\bsp\encoder.h)(0x6847DC2B)
+F (..\..\libraries\timer_event\TimeEvent.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/timeevent.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\libraries\timer_event\TimeEvent.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+F (..\iHastek\core\core_pm25.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/core_pm25.o -MD)
+I (..\iHastek\inc\ihastek.h5.\iHastek\inc\user_config.h)(0x00000000)
+I (..\iHastek\inc\types.h.:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.hC\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+F (..\iHastek\core\core_fan_speed_handle.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/core_fan_speed_handle.o -MD)
+I (..\iHastek\inc\user_config.he.\iHastek\inc\types.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.hh\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+F (..\iHastek\core\core_te.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/core_te.o -MD)
+I (..\iHastek\inc\user_config.hu.\iHastek\inc\types.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\at32f403a_407_board\at32f403a_407_board.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+I (..\iHastek\inc\ihastek.hi.\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.hy\user\define.h)(0x00000000)
+I (..\user\display.h)(0x6847DC2B)
+F (..\iHastek\core\core_hepa.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/core_hepa.o -MD)
+I (..\iHastek\inc\ihastek.ha.\iHastek\inc\user_config.h)(0x00000000)
+I (..\iHastek\inc\types.h.:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.hC\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+F (..\iHastek\core\core_drive_flash.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/core_drive_flash.o -MD)
+I (..\iHastek\inc\ihastek.hv.\iHastek\inc\user_config.h)(0x00000000)
+I (..\iHastek\inc\types.h.:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.hC\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+F (..\iHastek\core\core_power.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/core_power.o -MD)
+I (..\iHastek\inc\ihastek.he.\iHastek\inc\user_config.h)(0x00000000)
+I (..\iHastek\inc\types.h.:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.hC\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+I (..\user\display.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6847DC2B)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x6847DC2B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
+I (D:\kong_qi_jing_hua_qi\AIR_Evolver_code_831\yq-dyson_831_poc\yq-dyson_831_poc\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6847DC2B)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6847DC2B)
+I (..\at32f403a_407_board\at32f403a_407_conf.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_rtc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_bpr.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_i2c.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_can.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_adc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dac.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_spi.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_dma.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_crc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wwdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_wdt.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_exint.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_sdio.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_xmc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_acc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_usb.h)(0x6847DC2B)
+I (..\..\libraries\drivers\inc\at32f403a_407_emac.h)(0x6847DC2B)
+F (..\iHastek\core\core_off_timer.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/core_off_timer.o -MD)
+I (..\iHastek\inc\ihastek.h_.\iHastek\inc\user_config.h)(0x00000000)
+I (..\iHastek\inc\types.h.:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.hC\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+F (..\iHastek\core\core_compile_time.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/core_compile_time.o -MD)
+F (..\iHastek\core\core_uart_protocol.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/core_uart_protocol.o -MD)
+I (..\iHastek\inc\ihastek.ht.\iHastek\inc\user_config.h)(0x00000000)
+I (..\iHastek\inc\types.h.:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.hC\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+F (..\iHastek\core\core_ir.c)(0x6847DC2B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/core_ir.o -MD)
+I (..\iHastek\inc\user_config.hi.\iHastek\inc\types.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.hh\iHastek\inc\type.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hh\user\define.h)(0x00000000)
+F (..\..\libraries\absolute_encoder\absolute_encoder.c)(0x684A8A71)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/absolute_encoder.o -MD)
+F (..\..\libraries\absolute_encoder\encoder_map.c)(0x684A88FB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/encoder_map.o -MD)
+F (..\..\libraries\absolute_encoder\input_preprocessor.c)(0x684A8A19)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/input_preprocessor.o -MD)
+F (..\..\libraries\absolute_encoder\position_tracker.c)(0x684A89AA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/position_tracker.o -MD)
+F (..\..\libraries\absolute_encoder\smart_search_manager.c)(0x684A8950)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/smart_search_manager.o -MD)
+F (..\..\libraries\absolute_encoder\test_example.c)(0x684A8AC1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-mexecute-only -fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../bsp/ -I ../at32f403a_407_board -I ../iHastek/inc -I ../user -I ../../libraries/timer_event -I ../../libraries/absolute_encoder-IC:/Keil_v5/ARM/PACK/ArteryTek/AT32F403A_407_DFP/2.2.2/Device/Include-D__UVISION_VERSION="539" -DAT32F403ACCT7 -DAT32F403AVGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o ./objects/test_example.o -MD)
