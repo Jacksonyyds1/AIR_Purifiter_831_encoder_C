@@ -1,5 +1,6 @@
 #include "at32f403a_407_board.h"
 #include "absolute_encoder.h"
+#include "encoder_map.h"
 #include "encoder.h"
 #include "stepper_motor.h"
 #include "define.h"
@@ -28,7 +29,7 @@ void encoder_init(void)
     encoder_config.sys_tick_get = Get_Sys_Tick; // 系统时钟获取函数指针
     //map_handle = create_encoder_map_with_pool(encoder_map_data, 360, 12, encoder_map_node_pool, 40 * 768);
     map_handle = create_encoder_map_with_pool(encoder_map_data, 360, 12, encoder_map_node_pool, 768);
-
+    //map_handle = encoder_map_create_with_pool(encoder_map_data, 360, 12, encoder_map_node_pool, 768);
     encoder_config.motor_steps_per_unit = 100;  // TODO: 电机多少步对应编码器前进1个单位，需根据实际情况进行修改
     encoder_nozzle_handle = create_encoder(map_handle, &encoder_config);
     encoder_config.motor_steps_per_unit = 100;  // TODO: 电机多少步对应编码器前进1个单位，需根据实际情况进行修改

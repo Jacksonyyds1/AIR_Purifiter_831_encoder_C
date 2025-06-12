@@ -39,7 +39,13 @@
   ..\..\libraries\drivers\inc\at32f403a_407_usb.h \
   ..\..\libraries\drivers\inc\at32f403a_407_emac.h \
   C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h \
-  ..\..\libraries\absolute_encoder\absolute_encoder.h ..\bsp\encoder.h \
+  ..\..\libraries\absolute_encoder\absolute_encoder.h \
+  ..\..\libraries\absolute_encoder\absolute_encoder_logger.h \
+  C:\Keil_v5\ARM\ARMCLANG\include\time.h \
+  ..\..\libraries\absolute_encoder\encoder_map.h \
+  ..\..\libraries\absolute_encoder\smart_search_manager.h \
+  ..\..\libraries\absolute_encoder\position_tracker.h \
+  ..\..\libraries\absolute_encoder\input_preprocessor.h ..\bsp\encoder.h \
   ..\bsp\stepper_motor.h ..\user\define.h ..\iHastek\inc\ihastek.h \
   ..\iHastek\inc\user_config.h ..\iHastek\inc\types.h \
   ..\iHastek\inc\type.h C:\Keil_v5\ARM\ARMCLANG\include\string.h
